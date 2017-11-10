@@ -1,0 +1,27 @@
+{
+  "name": "jenkins_docker",
+  "version": "1.0.0",
+  "description": "testing pipeline jenkins and docker",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --host 0.0.0.0 --port 8088"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecordaz/jenkins_docker.git"
+  },
+  "author": "josecordaz@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josecordaz/jenkins_docker/issues"
+  },
+  "homepage": "https://github.com/josecordaz/jenkins_docker#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
